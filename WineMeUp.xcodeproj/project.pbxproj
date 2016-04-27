@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6328E14B1CD158650018CDC5 /* breakfast.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1491CD158650018CDC5 /* breakfast.png */; };
+		6328E14C1CD158650018CDC5 /* dinner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E14A1CD158650018CDC5 /* dinner.png */; };
+		6328E1501CD15C580018CDC5 /* appetizer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E14E1CD15C580018CDC5 /* appetizer.png */; };
+		6328E1521CD15CBB0018CDC5 /* dessert.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1511CD15CBB0018CDC5 /* dessert.png */; };
 		B803C4841CC57BB9004AF7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */; };
 		B803C4861CC57BB9004AF7B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4851CC57BB9004AF7B2 /* ViewController.swift */; };
 		B803C4891CC57BB9004AF7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B803C4871CC57BB9004AF7B2 /* Main.storyboard */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6328E1491CD158650018CDC5 /* breakfast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breakfast.png; path = ../../breakfast.png; sourceTree = "<group>"; };
+		6328E14A1CD158650018CDC5 /* dinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dinner.png; path = ../../dinner.png; sourceTree = "<group>"; };
+		6328E14E1CD15C580018CDC5 /* appetizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appetizer.png; path = ../../appetizer.png; sourceTree = "<group>"; };
+		6328E1511CD15CBB0018CDC5 /* dessert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dessert.png; path = ../../dessert.png; sourceTree = "<group>"; };
 		B803C4801CC57BB9004AF7B2 /* WineMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B803C4851CC57BB9004AF7B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63BC834D1CD07FEE00EA21B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6328E1511CD15CBB0018CDC5 /* dessert.png */,
+				6328E14E1CD15C580018CDC5 /* appetizer.png */,
+				6328E1491CD158650018CDC5 /* breakfast.png */,
+				6328E14A1CD158650018CDC5 /* dinner.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		B803C4771CC57BB9004AF7B2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +120,7 @@
 		B803C4821CC57BB9004AF7B2 /* WineMeUp */ = {
 			isa = PBXGroup;
 			children = (
+				63BC834D1CD07FEE00EA21B8 /* Images */,
 				B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */,
 				B803C4851CC57BB9004AF7B2 /* ViewController.swift */,
 				B803C4B11CC57BE7004AF7B2 /* PageItemController.swift */,
@@ -235,8 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6328E14B1CD158650018CDC5 /* breakfast.png in Resources */,
+				6328E14C1CD158650018CDC5 /* dinner.png in Resources */,
 				B803C48E1CC57BB9004AF7B2 /* LaunchScreen.storyboard in Resources */,
 				B803C48B1CC57BB9004AF7B2 /* Assets.xcassets in Resources */,
+				6328E1501CD15C580018CDC5 /* appetizer.png in Resources */,
+				6328E1521CD15CBB0018CDC5 /* dessert.png in Resources */,
 				B803C4891CC57BB9004AF7B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +516,7 @@
 				B803C4AA1CC57BB9004AF7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B803C4AB1CC57BB9004AF7B2 /* Build configuration list for PBXNativeTarget "WineMeUpTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +525,7 @@
 				B803C4AD1CC57BB9004AF7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B803C4AE1CC57BB9004AF7B2 /* Build configuration list for PBXNativeTarget "WineMeUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +534,7 @@
 				B803C4B01CC57BB9004AF7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
