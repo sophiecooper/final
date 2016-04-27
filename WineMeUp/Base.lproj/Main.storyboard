@@ -153,8 +153,8 @@
                                     <action selector="buttonPressed:" destination="lqk-91-cQz" eventType="touchUpInside" id="pgS-gm-4vU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast &amp; Brunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0o-Hj-QqJ">
-                                <rect key="frame" x="139" y="294" width="148" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQl-vQ-294">
+                                <rect key="frame" x="363" y="294" width="48" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -171,15 +171,15 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e89-H7-fok">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e89-H7-fok">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                 <color key="barTintColor" red="0.83921568627450982" green="0.83921568627450982" blue="0.83921568627450982" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Wine Me Up" id="sDa-k0-m0v"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQl-vQ-294">
-                                <rect key="frame" x="363" y="294" width="48" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0o-Hj-QqJ">
+                                <rect key="frame" x="177" y="294" width="73" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -189,27 +189,29 @@
                         <constraints>
                             <constraint firstItem="R1z-yb-TeX" firstAttribute="top" secondItem="SLc-pT-k5B" secondAttribute="bottom" constant="29" id="5iU-MA-hNs"/>
                             <constraint firstItem="SLc-pT-k5B" firstAttribute="centerX" secondItem="LLt-yc-B9o" secondAttribute="centerX" id="5kv-hB-Qwo"/>
-                            <constraint firstItem="B0o-Hj-QqJ" firstAttribute="centerX" secondItem="DGG-J8-eXY" secondAttribute="centerX" id="Bjk-Tl-8PZ"/>
+                            <constraint firstItem="B0o-Hj-QqJ" firstAttribute="baseline" secondItem="WQl-vQ-294" secondAttribute="baseline" id="Aca-2j-ynK"/>
                             <constraint firstItem="SLc-pT-k5B" firstAttribute="top" secondItem="jCV-pb-gX8" secondAttribute="bottom" constant="83" id="Cew-E9-1Pj"/>
+                            <constraint firstItem="e89-H7-fok" firstAttribute="top" secondItem="LLt-yc-B9o" secondAttribute="top" id="EpV-BY-gps"/>
                             <constraint firstItem="LVu-pb-goK" firstAttribute="centerX" secondItem="R5q-hp-GNs" secondAttribute="centerX" id="Gqp-Wt-EZg"/>
                             <constraint firstItem="R1z-yb-TeX" firstAttribute="trailing" secondItem="SLc-pT-k5B" secondAttribute="trailing" id="Gsc-xo-Bhw"/>
                             <constraint firstItem="R1z-yb-TeX" firstAttribute="leading" secondItem="DGG-J8-eXY" secondAttribute="trailing" constant="54" id="Rca-7l-YuO"/>
                             <constraint firstItem="WQl-vQ-294" firstAttribute="top" secondItem="R1z-yb-TeX" secondAttribute="bottom" constant="-1" id="Se5-nV-3m9"/>
-                            <constraint firstItem="WQl-vQ-294" firstAttribute="leading" secondItem="B0o-Hj-QqJ" secondAttribute="trailing" constant="76" id="U8a-YZ-JB6"/>
                             <constraint firstItem="R5q-hp-GNs" firstAttribute="top" secondItem="WQl-vQ-294" secondAttribute="bottom" constant="21" id="Uxr-SZ-tBl"/>
                             <constraint firstItem="DGG-J8-eXY" firstAttribute="leading" secondItem="SLc-pT-k5B" secondAttribute="leading" id="aJL-uZ-Xuc"/>
+                            <constraint firstItem="WQl-vQ-294" firstAttribute="centerX" secondItem="R1z-yb-TeX" secondAttribute="centerX" id="akg-uT-Iyy"/>
                             <constraint firstItem="Ras-7u-AFK" firstAttribute="top" secondItem="DGG-J8-eXY" secondAttribute="bottom" constant="41" id="bDM-XU-iCs"/>
                             <constraint firstItem="R5q-hp-GNs" firstAttribute="top" secondItem="R1z-yb-TeX" secondAttribute="bottom" constant="41" id="d95-uT-rLR"/>
                             <constraint firstItem="DGG-J8-eXY" firstAttribute="top" secondItem="SLc-pT-k5B" secondAttribute="bottom" constant="29" id="fZz-vV-wfE"/>
                             <constraint firstItem="XhR-xl-2iy" firstAttribute="top" secondItem="Ras-7u-AFK" secondAttribute="bottom" constant="-1" id="hWp-dh-ucn"/>
                             <constraint firstItem="R1z-yb-TeX" firstAttribute="leading" secondItem="SLc-pT-k5B" secondAttribute="trailing" id="iWu-JA-6P0"/>
-                            <constraint firstItem="Ras-7u-AFK" firstAttribute="top" secondItem="B0o-Hj-QqJ" secondAttribute="bottom" constant="21" id="jrb-7k-9pC"/>
+                            <constraint firstItem="e89-H7-fok" firstAttribute="leading" secondItem="LLt-yc-B9o" secondAttribute="leading" id="ltQ-k8-PDd"/>
                             <constraint firstItem="LVu-pb-goK" firstAttribute="leading" secondItem="XhR-xl-2iy" secondAttribute="trailing" constant="123" id="rXZ-CE-rbN"/>
                             <constraint firstItem="R5q-hp-GNs" firstAttribute="leading" secondItem="Ras-7u-AFK" secondAttribute="trailing" constant="54" id="rkl-4b-65t"/>
-                            <constraint firstItem="B0o-Hj-QqJ" firstAttribute="top" secondItem="DGG-J8-eXY" secondAttribute="bottom" constant="-1" id="rqE-15-LKi"/>
+                            <constraint firstItem="e89-H7-fok" firstAttribute="centerX" secondItem="SLc-pT-k5B" secondAttribute="centerX" id="sUZ-Eq-Ovv"/>
                             <constraint firstItem="R5q-hp-GNs" firstAttribute="trailing" secondItem="R1z-yb-TeX" secondAttribute="trailing" id="siR-Q3-VYX"/>
                             <constraint firstItem="DGG-J8-eXY" firstAttribute="leading" secondItem="Ras-7u-AFK" secondAttribute="leading" id="xs1-HT-oQX"/>
                             <constraint firstItem="LVu-pb-goK" firstAttribute="top" secondItem="R5q-hp-GNs" secondAttribute="bottom" constant="-1" id="y1K-ER-myG"/>
+                            <constraint firstItem="B0o-Hj-QqJ" firstAttribute="centerX" secondItem="DGG-J8-eXY" secondAttribute="centerX" id="zxw-Kf-HAB"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
