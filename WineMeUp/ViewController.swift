@@ -19,6 +19,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         super.viewDidLoad()
         createPageViewController()
         setupPageControl()
+        print("hello")
         
         // blah 
     }

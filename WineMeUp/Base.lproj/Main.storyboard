@@ -18,15 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fge-XP-vVz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Wine Me Up" id="glR-2g-r8l">
+                                        <barButtonItem key="leftBarButtonItem" title="About" id="Wu1-hJ-9Rg"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Settings" id="DdX-ZU-3e1"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaN-Iv-fM0">
-                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <rect key="frame" x="145" y="167" width="295" height="265"/>
                                 <color key="backgroundColor" red="0.39739001400000001" green="0.084552608589999995" blue="0.1255590161" alpha="0.76000000000000001" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="Og3-bV-89n"/>
-                                    <constraint firstAttribute="height" constant="200" id="OxK-fg-MGD"/>
+                                    <constraint firstAttribute="width" constant="295" id="Og3-bV-89n"/>
+                                    <constraint firstAttribute="height" constant="265" id="OxK-fg-MGD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <state key="normal" title="Wine Me Up!">
+                                <state key="normal" backgroundImage="logo.png">
                                     <color key="titleColor" red="0.93352828210000005" green="0.93352828210000005" blue="0.93352828210000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -34,10 +43,13 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.30980392156862746" green="0.062745098039215685" blue="0.10980392156862745" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="AaN-Iv-fM0" firstAttribute="centerX" secondItem="XB2-L5-u5i" secondAttribute="centerX" id="0kY-Tb-TMU"/>
+                            <constraint firstItem="AaN-Iv-fM0" firstAttribute="centerX" secondItem="XB2-L5-u5i" secondAttribute="centerX" constant="-7.5" id="0kY-Tb-TMU"/>
+                            <constraint firstItem="Fge-XP-vVz" firstAttribute="leading" secondItem="XB2-L5-u5i" secondAttribute="leading" id="9Cw-rF-eq5"/>
                             <constraint firstItem="AaN-Iv-fM0" firstAttribute="centerY" secondItem="XB2-L5-u5i" secondAttribute="centerY" id="CsK-ue-naZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Fge-XP-vVz" secondAttribute="trailing" id="I1w-ra-OXd"/>
+                            <constraint firstItem="Fge-XP-vVz" firstAttribute="top" secondItem="XB2-L5-u5i" secondAttribute="top" id="NNa-zJ-upx"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -108,18 +120,6 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1z-yb-TeX">
-                                <rect key="frame" x="327" y="175" width="120" height="120"/>
-                                <color key="backgroundColor" red="0.77254909279999995" green="0.85490202900000001" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="2hF-vm-K5F"/>
-                                    <constraint firstAttribute="width" constant="120" id="vq8-Xb-FFt"/>
-                                </constraints>
-                                <state key="normal" image="appetizer.png"/>
-                                <connections>
-                                    <action selector="buttonPressed:" destination="lqk-91-cQz" eventType="touchUpInside" id="pgS-gm-4vU"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DGG-J8-eXY">
                                 <rect key="frame" x="153" y="175" width="120" height="120"/>
                                 <color key="backgroundColor" red="0.77254909279999995" green="0.85490202900000001" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
@@ -133,7 +133,7 @@
                                     <color key="titleColor" red="0.030540609732270241" green="0.058849312365055084" blue="0.063150599598884583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
@@ -141,22 +141,75 @@
                                     <action selector="buttonPressed:" destination="lqk-91-cQz" eventType="touchUpInside" id="pgG-HJ-7pk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1z-yb-TeX">
+                                <rect key="frame" x="327" y="175" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.77254909279999995" green="0.85490202900000001" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="2hF-vm-K5F"/>
+                                    <constraint firstAttribute="width" constant="120" id="vq8-Xb-FFt"/>
+                                </constraints>
+                                <state key="normal" image="lunch.png"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="lqk-91-cQz" eventType="touchUpInside" id="pgS-gm-4vU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast &amp; Brunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0o-Hj-QqJ">
+                                <rect key="frame" x="139" y="294" width="148" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XhR-xl-2iy">
+                                <rect key="frame" x="183" y="455" width="51" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dessert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVu-pb-goK">
+                                <rect key="frame" x="357" y="455" width="60" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e89-H7-fok">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <color key="barTintColor" red="0.83921568627450982" green="0.83921568627450982" blue="0.83921568627450982" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Wine Me Up" id="sDa-k0-m0v"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQl-vQ-294">
+                                <rect key="frame" x="363" y="294" width="48" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000000000002" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.30980392159999998" green="0.062745098040000002" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="R1z-yb-TeX" firstAttribute="top" secondItem="SLc-pT-k5B" secondAttribute="bottom" constant="29" id="5iU-MA-hNs"/>
                             <constraint firstItem="SLc-pT-k5B" firstAttribute="centerX" secondItem="LLt-yc-B9o" secondAttribute="centerX" id="5kv-hB-Qwo"/>
+                            <constraint firstItem="B0o-Hj-QqJ" firstAttribute="centerX" secondItem="DGG-J8-eXY" secondAttribute="centerX" id="Bjk-Tl-8PZ"/>
                             <constraint firstItem="SLc-pT-k5B" firstAttribute="top" secondItem="jCV-pb-gX8" secondAttribute="bottom" constant="83" id="Cew-E9-1Pj"/>
+                            <constraint firstItem="LVu-pb-goK" firstAttribute="centerX" secondItem="R5q-hp-GNs" secondAttribute="centerX" id="Gqp-Wt-EZg"/>
                             <constraint firstItem="R1z-yb-TeX" firstAttribute="trailing" secondItem="SLc-pT-k5B" secondAttribute="trailing" id="Gsc-xo-Bhw"/>
                             <constraint firstItem="R1z-yb-TeX" firstAttribute="leading" secondItem="DGG-J8-eXY" secondAttribute="trailing" constant="54" id="Rca-7l-YuO"/>
+                            <constraint firstItem="WQl-vQ-294" firstAttribute="top" secondItem="R1z-yb-TeX" secondAttribute="bottom" constant="-1" id="Se5-nV-3m9"/>
+                            <constraint firstItem="WQl-vQ-294" firstAttribute="leading" secondItem="B0o-Hj-QqJ" secondAttribute="trailing" constant="76" id="U8a-YZ-JB6"/>
+                            <constraint firstItem="R5q-hp-GNs" firstAttribute="top" secondItem="WQl-vQ-294" secondAttribute="bottom" constant="21" id="Uxr-SZ-tBl"/>
                             <constraint firstItem="DGG-J8-eXY" firstAttribute="leading" secondItem="SLc-pT-k5B" secondAttribute="leading" id="aJL-uZ-Xuc"/>
                             <constraint firstItem="Ras-7u-AFK" firstAttribute="top" secondItem="DGG-J8-eXY" secondAttribute="bottom" constant="41" id="bDM-XU-iCs"/>
                             <constraint firstItem="R5q-hp-GNs" firstAttribute="top" secondItem="R1z-yb-TeX" secondAttribute="bottom" constant="41" id="d95-uT-rLR"/>
                             <constraint firstItem="DGG-J8-eXY" firstAttribute="top" secondItem="SLc-pT-k5B" secondAttribute="bottom" constant="29" id="fZz-vV-wfE"/>
+                            <constraint firstItem="XhR-xl-2iy" firstAttribute="top" secondItem="Ras-7u-AFK" secondAttribute="bottom" constant="-1" id="hWp-dh-ucn"/>
                             <constraint firstItem="R1z-yb-TeX" firstAttribute="leading" secondItem="SLc-pT-k5B" secondAttribute="trailing" id="iWu-JA-6P0"/>
+                            <constraint firstItem="Ras-7u-AFK" firstAttribute="top" secondItem="B0o-Hj-QqJ" secondAttribute="bottom" constant="21" id="jrb-7k-9pC"/>
+                            <constraint firstItem="LVu-pb-goK" firstAttribute="leading" secondItem="XhR-xl-2iy" secondAttribute="trailing" constant="123" id="rXZ-CE-rbN"/>
                             <constraint firstItem="R5q-hp-GNs" firstAttribute="leading" secondItem="Ras-7u-AFK" secondAttribute="trailing" constant="54" id="rkl-4b-65t"/>
+                            <constraint firstItem="B0o-Hj-QqJ" firstAttribute="top" secondItem="DGG-J8-eXY" secondAttribute="bottom" constant="-1" id="rqE-15-LKi"/>
                             <constraint firstItem="R5q-hp-GNs" firstAttribute="trailing" secondItem="R1z-yb-TeX" secondAttribute="trailing" id="siR-Q3-VYX"/>
                             <constraint firstItem="DGG-J8-eXY" firstAttribute="leading" secondItem="Ras-7u-AFK" secondAttribute="leading" id="xs1-HT-oQX"/>
+                            <constraint firstItem="LVu-pb-goK" firstAttribute="top" secondItem="R5q-hp-GNs" secondAttribute="bottom" constant="-1" id="y1K-ER-myG"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -173,7 +226,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P33-s3-X8C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1112" y="338"/>
+            <point key="canvasLocation" x="1122" y="354"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="MM8-KT-pad">
@@ -210,6 +263,14 @@
                                     </mask>
                                 </variation>
                             </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iqL-7p-J11">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Wine Me Up" id="c1N-aq-m0G">
+                                        <barButtonItem key="leftBarButtonItem" title="Home" id="psf-bb-BzC"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -228,7 +289,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKS-9t-xWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1750" y="338"/>
+            <point key="canvasLocation" x="2378" y="354"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="VW8-Bi-Wi9">
@@ -240,9 +301,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="appetizer.png" width="982" height="708"/>
         <image name="breakfast.png" width="996" height="962"/>
         <image name="dessert.png" width="1030" height="1062"/>
         <image name="dinner.png" width="1086" height="956"/>
+        <image name="logo.png" width="1202" height="1018"/>
+        <image name="lunch.png" width="768" height="646"/>
     </resources>
 </document>

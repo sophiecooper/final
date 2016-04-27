@@ -23,6 +23,7 @@ class PageItemController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.titleLabel.text = titleName;
+        print("pageItem VC")
     }
     
     @IBAction func buttonPressed(sender: UIButton) {
