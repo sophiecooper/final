@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6F55A9BF268345AEF5FF143E72017CA116BD66EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5D76A15D673F39EA9903D6A68CB87645C18FEAC1" : 0,
+    "6F55A9BF268345AEF5FF143E72017CA116BD66EF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "379B264A-7EB2-4C02-A298-A7A1CE4BBAAD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5D76A15D673F39EA9903D6A68CB87645C18FEAC1" : "",
+    "6F55A9BF268345AEF5FF143E72017CA116BD66EF" : "WineMeUp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WineMeUp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WineMeUp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sophiecooper\/ios-decal-proj4",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5D76A15D673F39EA9903D6A68CB87645C18FEAC1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sophiecooper\/ios-decal-proj4\/",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F55A9BF268345AEF5FF143E72017CA116BD66EF"
+    }
+  ]
+}
