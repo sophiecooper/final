@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6328E14B1CD158650018CDC5 /* breakfast.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1491CD158650018CDC5 /* breakfast.png */; };
 		6328E14C1CD158650018CDC5 /* dinner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E14A1CD158650018CDC5 /* dinner.png */; };
-		6328E1501CD15C580018CDC5 /* appetizer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E14E1CD15C580018CDC5 /* appetizer.png */; };
 		6328E1521CD15CBB0018CDC5 /* dessertAndCake.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1511CD15CBB0018CDC5 /* dessertAndCake.png */; };
 		6328E1541CD162530018CDC5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1531CD162530018CDC5 /* logo.png */; };
 		6328E1561CD167140018CDC5 /* lunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1551CD167140018CDC5 /* lunch.png */; };
@@ -54,24 +53,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6328E1491CD158650018CDC5 /* breakfast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breakfast.png; path = ../../breakfast.png; sourceTree = "<group>"; };
-		6328E14A1CD158650018CDC5 /* dinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dinner.png; path = ../../dinner.png; sourceTree = "<group>"; };
-		6328E14E1CD15C580018CDC5 /* appetizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appetizer.png; path = ../../appetizer.png; sourceTree = "<group>"; };
-		6328E1511CD15CBB0018CDC5 /* dessertAndCake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dessertAndCake.png; path = ../../dessertAndCake.png; sourceTree = "<group>"; };
-		6328E1531CD162530018CDC5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../logo.png; sourceTree = "<group>"; };
-		6328E1551CD167140018CDC5 /* lunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lunch.png; path = ../../lunch.png; sourceTree = "<group>"; };
-		6328E1571CD16A800018CDC5 /* pasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasta.png; path = ../../pasta.png; sourceTree = "<group>"; };
-		6328E1581CD16A800018CDC5 /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sushi.png; path = ../../sushi.png; sourceTree = "<group>"; };
-		6328E1591CD16A800018CDC5 /* steak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = steak.png; path = ../../steak.png; sourceTree = "<group>"; };
-		6328E15A1CD16A800018CDC5 /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chicken.png; path = ../../chicken.png; sourceTree = "<group>"; };
-		6328E15B1CD16A800018CDC5 /* salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salad.png; path = ../../salad.png; sourceTree = "<group>"; };
-		6328E15C1CD16A800018CDC5 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fish.png; path = ../../fish.png; sourceTree = "<group>"; };
-		6328E1631CD172DD0018CDC5 /* pastries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pastries.png; path = ../../pastries.png; sourceTree = "<group>"; };
-		6328E1641CD172DD0018CDC5 /* eggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eggs.png; path = ../../eggs.png; sourceTree = "<group>"; };
-		6328E1651CD172DD0018CDC5 /* pancakes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pancakes.png; path = ../../pancakes.png; sourceTree = "<group>"; };
-		6328E1661CD172DD0018CDC5 /* rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rice.png; path = ../../rice.png; sourceTree = "<group>"; };
-		6328E1671CD172DD0018CDC5 /* fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fruit.png; path = ../../fruit.png; sourceTree = "<group>"; };
-		6328E1681CD172DD0018CDC5 /* cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cheese.png; path = ../../cheese.png; sourceTree = "<group>"; };
+		6328E1491CD158650018CDC5 /* breakfast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breakfast.png; path = Assets.xcassets/breakfast.png; sourceTree = "<group>"; };
+		6328E14A1CD158650018CDC5 /* dinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dinner.png; path = Assets.xcassets/dinner.png; sourceTree = "<group>"; };
+		6328E1511CD15CBB0018CDC5 /* dessertAndCake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dessertAndCake.png; path = Assets.xcassets/dessertAndCake.png; sourceTree = "<group>"; };
+		6328E1531CD162530018CDC5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Assets.xcassets/logo.png; sourceTree = "<group>"; };
+		6328E1551CD167140018CDC5 /* lunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lunch.png; path = Assets.xcassets/lunch.png; sourceTree = "<group>"; };
+		6328E1571CD16A800018CDC5 /* pasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasta.png; path = Assets.xcassets/pasta.png; sourceTree = "<group>"; };
+		6328E1581CD16A800018CDC5 /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sushi.png; path = Assets.xcassets/sushi.png; sourceTree = "<group>"; };
+		6328E1591CD16A800018CDC5 /* steak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = steak.png; path = Assets.xcassets/steak.png; sourceTree = "<group>"; };
+		6328E15A1CD16A800018CDC5 /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chicken.png; path = Assets.xcassets/chicken.png; sourceTree = "<group>"; };
+		6328E15B1CD16A800018CDC5 /* salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salad.png; path = Assets.xcassets/salad.png; sourceTree = "<group>"; };
+		6328E15C1CD16A800018CDC5 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fish.png; path = Assets.xcassets/fish.png; sourceTree = "<group>"; };
+		6328E1631CD172DD0018CDC5 /* pastries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pastries.png; path = Assets.xcassets/pastries.png; sourceTree = "<group>"; };
+		6328E1641CD172DD0018CDC5 /* eggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eggs.png; path = Assets.xcassets/eggs.png; sourceTree = "<group>"; };
+		6328E1651CD172DD0018CDC5 /* pancakes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pancakes.png; path = Assets.xcassets/pancakes.png; sourceTree = "<group>"; };
+		6328E1661CD172DD0018CDC5 /* rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rice.png; path = Assets.xcassets/rice.png; sourceTree = "<group>"; };
+		6328E1671CD172DD0018CDC5 /* fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fruit.png; path = Assets.xcassets/fruit.png; sourceTree = "<group>"; };
+		6328E1681CD172DD0018CDC5 /* cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cheese.png; path = Assets.xcassets/cheese.png; sourceTree = "<group>"; };
 		B803C4801CC57BB9004AF7B2 /* WineMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B803C4851CC57BB9004AF7B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,7 +130,6 @@
 				6328E1551CD167140018CDC5 /* lunch.png */,
 				6328E1531CD162530018CDC5 /* logo.png */,
 				6328E1511CD15CBB0018CDC5 /* dessertAndCake.png */,
-				6328E14E1CD15C580018CDC5 /* appetizer.png */,
 				6328E1491CD158650018CDC5 /* breakfast.png */,
 				6328E14A1CD158650018CDC5 /* dinner.png */,
 			);
@@ -312,7 +309,6 @@
 				6328E16E1CD172DD0018CDC5 /* cheese.png in Resources */,
 				6328E1541CD162530018CDC5 /* logo.png in Resources */,
 				6328E1691CD172DD0018CDC5 /* pastries.png in Resources */,
-				6328E1501CD15C580018CDC5 /* appetizer.png in Resources */,
 				6328E16C1CD172DD0018CDC5 /* rice.png in Resources */,
 				6328E1611CD16A800018CDC5 /* salad.png in Resources */,
 				6328E1521CD15CBB0018CDC5 /* dessertAndCake.png in Resources */,
