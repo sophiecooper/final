@@ -24,14 +24,23 @@
 		6328E16C1CD172DD0018CDC5 /* rice.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1661CD172DD0018CDC5 /* rice.png */; };
 		6328E16D1CD172DD0018CDC5 /* fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1671CD172DD0018CDC5 /* fruit.png */; };
 		6328E16E1CD172DD0018CDC5 /* cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1681CD172DD0018CDC5 /* cheese.png */; };
+		6328E17E1CD1D4C50018CDC5 /* PriceRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328E1771CD1D4C50018CDC5 /* PriceRangeViewController.swift */; };
+		6328E17F1CD1D4C50018CDC5 /* TypeOfBreakfastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328E1781CD1D4C50018CDC5 /* TypeOfBreakfastViewController.swift */; };
+		6328E1801CD1D4C50018CDC5 /* TypeOfDessertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328E1791CD1D4C50018CDC5 /* TypeOfDessertViewController.swift */; };
+		6328E1811CD1D4C50018CDC5 /* TypeOfMainDishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328E17A1CD1D4C50018CDC5 /* TypeOfMainDishViewController.swift */; };
+		6328E1821CD1D4C50018CDC5 /* TypeOfMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328E17B1CD1D4C50018CDC5 /* TypeOfMealViewController.swift */; };
+		6328E1831CD1D4C50018CDC5 /* TypeOfMeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328E17C1CD1D4C50018CDC5 /* TypeOfMeatViewController.swift */; };
+		6328E1841CD1D4C50018CDC5 /* TypeOfSauceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328E17D1CD1D4C50018CDC5 /* TypeOfSauceViewController.swift */; };
+		6328E1891CD1E1590018CDC5 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1851CD1E1590018CDC5 /* home.png */; };
+		6328E18A1CD1E1590018CDC5 /* icecream.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1861CD1E1590018CDC5 /* icecream.png */; };
+		6328E18B1CD1E1590018CDC5 /* pork.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1871CD1E1590018CDC5 /* pork.png */; };
+		6328E18C1CD1E1590018CDC5 /* veggies.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1881CD1E1590018CDC5 /* veggies.png */; };
 		B803C4841CC57BB9004AF7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */; };
-		B803C4861CC57BB9004AF7B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4851CC57BB9004AF7B2 /* ViewController.swift */; };
 		B803C4891CC57BB9004AF7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B803C4871CC57BB9004AF7B2 /* Main.storyboard */; };
 		B803C48B1CC57BB9004AF7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B803C48A1CC57BB9004AF7B2 /* Assets.xcassets */; };
 		B803C48E1CC57BB9004AF7B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B803C48C1CC57BB9004AF7B2 /* LaunchScreen.storyboard */; };
 		B803C4991CC57BB9004AF7B2 /* WineMeUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4981CC57BB9004AF7B2 /* WineMeUpTests.swift */; };
 		B803C4A41CC57BB9004AF7B2 /* WineMeUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4A31CC57BB9004AF7B2 /* WineMeUpUITests.swift */; };
-		B803C4B21CC57BE7004AF7B2 /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4B11CC57BE7004AF7B2 /* PageItemController.swift */; };
 		B803C4B41CC57F5C004AF7B2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4B31CC57F5C004AF7B2 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,9 +79,19 @@
 		6328E1661CD172DD0018CDC5 /* rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rice.png; path = Assets.xcassets/rice.png; sourceTree = "<group>"; };
 		6328E1671CD172DD0018CDC5 /* fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fruit.png; path = Assets.xcassets/fruit.png; sourceTree = "<group>"; };
 		6328E1681CD172DD0018CDC5 /* cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cheese.png; path = Assets.xcassets/cheese.png; sourceTree = "<group>"; };
+		6328E1771CD1D4C50018CDC5 /* PriceRangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceRangeViewController.swift; sourceTree = "<group>"; };
+		6328E1781CD1D4C50018CDC5 /* TypeOfBreakfastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeOfBreakfastViewController.swift; sourceTree = "<group>"; };
+		6328E1791CD1D4C50018CDC5 /* TypeOfDessertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeOfDessertViewController.swift; sourceTree = "<group>"; };
+		6328E17A1CD1D4C50018CDC5 /* TypeOfMainDishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeOfMainDishViewController.swift; sourceTree = "<group>"; };
+		6328E17B1CD1D4C50018CDC5 /* TypeOfMealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeOfMealViewController.swift; sourceTree = "<group>"; };
+		6328E17C1CD1D4C50018CDC5 /* TypeOfMeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeOfMeatViewController.swift; sourceTree = "<group>"; };
+		6328E17D1CD1D4C50018CDC5 /* TypeOfSauceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeOfSauceViewController.swift; sourceTree = "<group>"; };
+		6328E1851CD1E1590018CDC5 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = Assets.xcassets/home.png; sourceTree = "<group>"; };
+		6328E1861CD1E1590018CDC5 /* icecream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icecream.png; path = Assets.xcassets/icecream.png; sourceTree = "<group>"; };
+		6328E1871CD1E1590018CDC5 /* pork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pork.png; path = Assets.xcassets/pork.png; sourceTree = "<group>"; };
+		6328E1881CD1E1590018CDC5 /* veggies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = veggies.png; path = Assets.xcassets/veggies.png; sourceTree = "<group>"; };
 		B803C4801CC57BB9004AF7B2 /* WineMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B803C4851CC57BB9004AF7B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B803C4881CC57BB9004AF7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B803C48A1CC57BB9004AF7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B803C48D1CC57BB9004AF7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,7 +102,6 @@
 		B803C49F1CC57BB9004AF7B2 /* WineMeUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineMeUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B803C4A31CC57BB9004AF7B2 /* WineMeUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineMeUpUITests.swift; sourceTree = "<group>"; };
 		B803C4A51CC57BB9004AF7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B803C4B11CC57BE7004AF7B2 /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
 		B803C4B31CC57F5C004AF7B2 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +133,10 @@
 		63BC834D1CD07FEE00EA21B8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6328E1851CD1E1590018CDC5 /* home.png */,
+				6328E1861CD1E1590018CDC5 /* icecream.png */,
+				6328E1871CD1E1590018CDC5 /* pork.png */,
+				6328E1881CD1E1590018CDC5 /* veggies.png */,
 				6328E1631CD172DD0018CDC5 /* pastries.png */,
 				6328E1641CD172DD0018CDC5 /* eggs.png */,
 				6328E1651CD172DD0018CDC5 /* pancakes.png */,
@@ -160,9 +182,14 @@
 			isa = PBXGroup;
 			children = (
 				63BC834D1CD07FEE00EA21B8 /* Images */,
+				6328E1771CD1D4C50018CDC5 /* PriceRangeViewController.swift */,
+				6328E1781CD1D4C50018CDC5 /* TypeOfBreakfastViewController.swift */,
+				6328E1791CD1D4C50018CDC5 /* TypeOfDessertViewController.swift */,
+				6328E17A1CD1D4C50018CDC5 /* TypeOfMainDishViewController.swift */,
+				6328E17B1CD1D4C50018CDC5 /* TypeOfMealViewController.swift */,
+				6328E17C1CD1D4C50018CDC5 /* TypeOfMeatViewController.swift */,
+				6328E17D1CD1D4C50018CDC5 /* TypeOfSauceViewController.swift */,
 				B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */,
-				B803C4851CC57BB9004AF7B2 /* ViewController.swift */,
-				B803C4B11CC57BE7004AF7B2 /* PageItemController.swift */,
 				B803C4B31CC57F5C004AF7B2 /* ResultViewController.swift */,
 				B803C4871CC57BB9004AF7B2 /* Main.storyboard */,
 				B803C48A1CC57BB9004AF7B2 /* Assets.xcassets */,
@@ -296,6 +323,7 @@
 			files = (
 				6328E14B1CD158650018CDC5 /* breakfast.png in Resources */,
 				6328E15F1CD16A800018CDC5 /* steak.png in Resources */,
+				6328E1891CD1E1590018CDC5 /* home.png in Resources */,
 				6328E16A1CD172DD0018CDC5 /* eggs.png in Resources */,
 				6328E14C1CD158650018CDC5 /* dinner.png in Resources */,
 				B803C48E1CC57BB9004AF7B2 /* LaunchScreen.storyboard in Resources */,
@@ -307,8 +335,11 @@
 				6328E1561CD167140018CDC5 /* lunch.png in Resources */,
 				6328E16D1CD172DD0018CDC5 /* fruit.png in Resources */,
 				6328E16E1CD172DD0018CDC5 /* cheese.png in Resources */,
+				6328E18A1CD1E1590018CDC5 /* icecream.png in Resources */,
 				6328E1541CD162530018CDC5 /* logo.png in Resources */,
+				6328E18C1CD1E1590018CDC5 /* veggies.png in Resources */,
 				6328E1691CD172DD0018CDC5 /* pastries.png in Resources */,
+				6328E18B1CD1E1590018CDC5 /* pork.png in Resources */,
 				6328E16C1CD172DD0018CDC5 /* rice.png in Resources */,
 				6328E1611CD16A800018CDC5 /* salad.png in Resources */,
 				6328E1521CD15CBB0018CDC5 /* dessertAndCake.png in Resources */,
@@ -338,10 +369,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B803C4B21CC57BE7004AF7B2 /* PageItemController.swift in Sources */,
-				B803C4861CC57BB9004AF7B2 /* ViewController.swift in Sources */,
+				6328E1841CD1D4C50018CDC5 /* TypeOfSauceViewController.swift in Sources */,
 				B803C4841CC57BB9004AF7B2 /* AppDelegate.swift in Sources */,
 				B803C4B41CC57F5C004AF7B2 /* ResultViewController.swift in Sources */,
+				6328E1811CD1D4C50018CDC5 /* TypeOfMainDishViewController.swift in Sources */,
+				6328E17E1CD1D4C50018CDC5 /* PriceRangeViewController.swift in Sources */,
+				6328E1821CD1D4C50018CDC5 /* TypeOfMealViewController.swift in Sources */,
+				6328E1801CD1D4C50018CDC5 /* TypeOfDessertViewController.swift in Sources */,
+				6328E1831CD1D4C50018CDC5 /* TypeOfMeatViewController.swift in Sources */,
+				6328E17F1CD1D4C50018CDC5 /* TypeOfBreakfastViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
