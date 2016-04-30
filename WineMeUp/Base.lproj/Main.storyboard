@@ -74,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="-830" y="338"/>
         </scene>
-        <!--Wine Data View Controller-->
+        <!--Wine Tracker View Controller-->
         <scene sceneID="at9-zv-UsL">
             <objects>
-                <viewController id="3fe-up-vie" customClass="WineDataViewController" customModule="WineMeUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3fe-up-vie" customClass="WineTrackerViewController" customModule="WineMeUp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="haz-KY-sA1"/>
                         <viewControllerLayoutGuide type="bottom" id="r9q-vv-ge0"/>
@@ -86,7 +86,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dfc-SN-F28">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dfc-SN-F28">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Wine Tracker" id="AOA-N2-8pi">
@@ -98,14 +98,115 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ilP-Pb-BcR">
+                                <rect key="frame" x="202" y="100" width="103" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="9HM-yE-RtG"/>
+                                    <constraint firstAttribute="height" constant="30" id="9kr-hi-9MQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many glasses of wine did you drink today?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dA1-ZP-mZ8">
+                                <rect key="frame" x="120" y="71" width="361" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSX-ej-nyZ">
+                                <rect key="frame" x="314" y="100" width="37" height="30"/>
+                                <state key="normal" title="Enter"/>
+                                <connections>
+                                    <action selector="inputWine" destination="3fe-up-vie" eventType="touchUpInside" id="lNc-vQ-SJh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Glasses of wine today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPC-jN-GTu">
+                                <rect key="frame" x="217" y="228" width="167" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Glasses of wine this week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BE9-eb-Elb">
+                                <rect key="frame" x="202" y="362" width="197" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Glasses of wine this month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59Y-db-0GM">
+                                <rect key="frame" x="197" y="508" width="206" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wb-ZS-3NL">
+                                <rect key="frame" x="250" y="281" width="101" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="X0o-PZ-Am7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="77"/>
+                                <color key="textColor" red="0.048861406743526459" green="0.48727166652679443" blue="0.91093212366104126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixa-U7-1lC">
+                                <rect key="frame" x="250" y="421" width="101" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="vOd-Ls-qjb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="77"/>
+                                <color key="textColor" red="0.048861406743526459" green="0.48727166652679443" blue="0.91093212366104126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ut-0P-XZu">
+                                <rect key="frame" x="250" y="149" width="101" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="JN5-pw-gFA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="77"/>
+                                <color key="textColor" red="0.048861406743526459" green="0.48727166652679443" blue="0.91093212366104126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ilP-Pb-BcR" firstAttribute="top" secondItem="haz-KY-sA1" secondAttribute="bottom" constant="80" id="0Xe-9e-vGQ"/>
+                            <constraint firstItem="FSX-ej-nyZ" firstAttribute="top" secondItem="ilP-Pb-BcR" secondAttribute="top" id="35I-xQ-SLq"/>
+                            <constraint firstItem="ixa-U7-1lC" firstAttribute="centerX" secondItem="Dfc-SN-F28" secondAttribute="centerX" id="4Kg-c0-tR9"/>
+                            <constraint firstItem="ilP-Pb-BcR" firstAttribute="top" secondItem="dA1-ZP-mZ8" secondAttribute="bottom" constant="8" id="4sZ-Rw-rAJ"/>
+                            <constraint firstItem="ixa-U7-1lC" firstAttribute="top" secondItem="BE9-eb-Elb" secondAttribute="bottom" constant="38" id="7Hn-RU-QFR"/>
+                            <constraint firstItem="PPC-jN-GTu" firstAttribute="centerX" secondItem="Dfc-SN-F28" secondAttribute="centerX" id="8Gf-5L-mHX"/>
+                            <constraint firstItem="dA1-ZP-mZ8" firstAttribute="centerX" secondItem="Dfc-SN-F28" secondAttribute="centerX" id="9M8-lM-vZj"/>
+                            <constraint firstItem="2Wb-ZS-3NL" firstAttribute="leading" secondItem="ixa-U7-1lC" secondAttribute="leading" id="Dhn-qq-cQw"/>
+                            <constraint firstItem="dA1-ZP-mZ8" firstAttribute="top" secondItem="Dfc-SN-F28" secondAttribute="bottom" constant="27" id="Ghy-AU-NpH"/>
+                            <constraint firstItem="2Wb-ZS-3NL" firstAttribute="centerX" secondItem="Dfc-SN-F28" secondAttribute="centerX" id="GpO-SY-qWM"/>
+                            <constraint firstItem="9Ut-0P-XZu" firstAttribute="leading" secondItem="2Wb-ZS-3NL" secondAttribute="leading" id="OOG-4H-eP3"/>
+                            <constraint firstItem="9Ut-0P-XZu" firstAttribute="centerX" secondItem="Dfc-SN-F28" secondAttribute="centerX" id="QWo-Gf-1Nl"/>
+                            <constraint firstItem="PPC-jN-GTu" firstAttribute="top" secondItem="FSX-ej-nyZ" secondAttribute="bottom" constant="98" id="ROn-rk-9H2"/>
+                            <constraint firstItem="2Wb-ZS-3NL" firstAttribute="top" secondItem="PPC-jN-GTu" secondAttribute="bottom" constant="32" id="Va0-6p-aR3"/>
+                            <constraint firstItem="59Y-db-0GM" firstAttribute="top" secondItem="ixa-U7-1lC" secondAttribute="bottom" constant="3" id="YPt-NT-Ujg"/>
+                            <constraint firstItem="2Wb-ZS-3NL" firstAttribute="top" secondItem="9Ut-0P-XZu" secondAttribute="bottom" constant="48" id="cTk-Lu-2gY"/>
+                            <constraint firstItem="BE9-eb-Elb" firstAttribute="centerX" secondItem="Dfc-SN-F28" secondAttribute="centerX" id="dCf-Lm-t8R"/>
+                            <constraint firstItem="dA1-ZP-mZ8" firstAttribute="centerX" secondItem="X9G-uA-KnF" secondAttribute="centerX" id="dD6-h6-xM5"/>
+                            <constraint firstItem="9Ut-0P-XZu" firstAttribute="top" secondItem="FSX-ej-nyZ" secondAttribute="bottom" constant="19" id="dKJ-V5-ToV"/>
+                            <constraint firstItem="FSX-ej-nyZ" firstAttribute="top" secondItem="haz-KY-sA1" secondAttribute="bottom" constant="80" id="dP8-IP-YRh"/>
+                            <constraint firstItem="59Y-db-0GM" firstAttribute="centerX" secondItem="Dfc-SN-F28" secondAttribute="centerX" id="h7K-cK-N6I"/>
+                            <constraint firstItem="FSX-ej-nyZ" firstAttribute="leading" secondItem="ilP-Pb-BcR" secondAttribute="trailing" constant="9" id="oDT-ki-Xma"/>
+                            <constraint firstItem="ixa-U7-1lC" firstAttribute="top" secondItem="2Wb-ZS-3NL" secondAttribute="bottom" constant="56" id="oSE-yh-Ukh"/>
+                            <constraint firstItem="r9q-vv-ge0" firstAttribute="top" secondItem="59Y-db-0GM" secondAttribute="bottom" constant="27" id="sIs-yL-5MS"/>
+                            <constraint firstItem="ilP-Pb-BcR" firstAttribute="top" secondItem="dA1-ZP-mZ8" secondAttribute="bottom" constant="8" symbolic="YES" id="waC-aY-58X"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="DailyGlassesOfWine" destination="9Ut-0P-XZu" id="Ayp-mT-wTh"/>
+                        <outlet property="EnterButton" destination="FSX-ej-nyZ" id="8eq-lz-Gab"/>
+                        <outlet property="MonthlyGlassesOfWine" destination="ixa-U7-1lC" id="OjW-Ob-cTs"/>
+                        <outlet property="NumberOfGlassesInput" destination="ilP-Pb-BcR" id="3G8-zu-GeB"/>
+                        <outlet property="WeeklyGlassesOfWine" destination="2Wb-ZS-3NL" id="uja-Zs-SwM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLV-DJ-Smj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="EJH-8F-Etg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-830" y="1086"/>
+            <point key="canvasLocation" x="-882" y="1314"/>
         </scene>
         <!--Type Of Meal View Controller-->
         <scene sceneID="Pdw-0u-XzN">
