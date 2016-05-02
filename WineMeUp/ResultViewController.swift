@@ -81,12 +81,61 @@ class ResultViewController: UIViewController {
             print("brunch")
             switch typeOfBrunch {
             case Brunch.kEggs:
+                switch priceRange {
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend Michel Gassier Nostre Pais Rouge ($17) - because the disparate elements on the plate of a classic fry-up -- streaky bacon, potatoes, roasted tomatoes, and kidneys -- call for a wine that brings them together, one with jammy-berry fruit flavors and an earthy undertone. Source: Martha Stewart"
+                    image = "MichelGassierNostrePaisRouge.jpg"
+                    break;
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend Rosemount Estate GSM (Grenache, Syrah, Mourvedre) 2003 McLaren Vale ($26)- because the disparate elements on the plate of a classic fry-up -- streaky bacon, potatoes, roasted tomatoes, and kidneys -- call for a wine that brings them together, one with jammy-berry fruit flavors and an earthy undertone. Source: Martha Stewart "
+                    image = "RosemountEstateGSM.png"
+                    break
+                default:
+                    break
+                }
                 break
             case Brunch.kPancakes:
-                break
+                switch priceRange {
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend Zardetto Prosecco di Conegliano Brut NV ($11) because its dry citrus flavors and lively effervescence are the perfect foil for the thick, sweet toppings, such as maple syrup and honey, that are often drizzled on these brunch mainstays. But Prosecco is equally suited to pancake and French toast partners that possess more acidity and fruit flavor, such as apple, rhubarb, or currant compotes. - Martha Stewart"
+                    image = "ZardettoProsecco.jpg"
+                    break;
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend La Gioiosa Prosecco 2014 ($26) because its dry citrus flavors and lively effervescence are the perfect foil for the thick, sweet toppings, such as maple syrup and honey, that are often drizzled on these brunch mainstays. But Prosecco is equally suited to pancake and French toast partners that possess more acidity and fruit flavor, such as apple, rhubarb, or currant compotes. Source: Martha Stewart"
+                    image = "LaGioiosaProsecco.png"
+                    break
+                default:
+                    break
+                }
+
             case Brunch.kPastries:
+                switch priceRange {
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend J. Rogét American Champagne ($6) because buttery pastries and quick breads deserve a bubbly with some of the complex, yeast-biscuit notes one finds in distinguished Champagnes. An elegant sip and yet not so esteemed that dressing it down with a splash or two of fresh blood-orange juice would be out of the question. Source: Martha Stewart"
+                    image = "JRogetChampagne.jpg"
+                    break;
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend Moet & Chandon White Star ($35), because buttery pastries and quick breads deserve a bubbly with some of the complex, yeast-biscuit notes one finds in distinguished Champagnes. An elegant sip and yet not so esteemed that dressing it down with a splash or two of fresh blood-orange juice would be out of the question. Source: Martha Stewart"
+                    image = "MoetChandon.jpg"
+                    break
+                default:
+                    break
+                }
+
                 break
             case Brunch.kFruits:
+                switch priceRange {
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend Ametzoi Rubentis Txakolina 2014 ($19) - because it is unoaked - or subtly oaked - and fruity."
+                    image = "AmetzoiRubentisTxakolina.jpg"
+                    break;
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend Domaine Tempier Bandol Rose ($40) - it is the perfect wine for fruits : slightly effervescent, relatively low in alcohol at 11%, crisp, light, and refreshing. Source: thestreet.com"
+                    image = "DomaineAndersonChardonnay.jpg"
+                    break
+                default:
+                    break
+                }
                 break
             default:
                 break
@@ -263,12 +312,62 @@ class ResultViewController: UIViewController {
             
             switch typeOfDessert {
             case Dessert.kIceCream:
+                switch priceRange {
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend The Montes Classic Series Cabernet Sauvignon ($15) - because the ice-cream should be sweeter than the wine. The delicate, sweet notes of the ice0cream will be swept away by the bitterness and dryness of the tannins."
+                    image = "MontesCabernet.jpg"
+                    break;
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend Franciscan Estate Cabernet Sauvignon 2013 ($29) - because the ice-cream should be sweeter than the wine. The delicate, sweet notes of the ice0cream will be swept away by the bitterness and dryness of the tannins."
+                    image = "FranciscanEstateCabernet.png"
+                    break
+                default:
+                    break
+                }
+            
+
                 break
             case Dessert.kCake:
+                switch priceRange {
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend Au Contraire 2013 Chardonnay ($20). Since it is a full-bodied white wine with buttery and oaky flavours, it will balance out the sweetness of the cake"
+                    image = "AuContraireChardonnay.jpg"
+                    break;
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend Domaine Anderson 2012 Chardonnay ($43). Since it is is a full-bodied white wine with buttery and oaky flavours, it will balance out the sweetness of the cake"
+                    image = "DomaineAndersonChardonnay.jpg"
+                    break
+                default:
+                    break
+                }
                 break
             case Dessert.kCheese:
+                switch priceRange {
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend Domaine Anderson 2012 Chardonnay ($43). The buttery and oaky flavours will go wonderfully with the savouriness of the cheese and without losing the sutble sweetness."
+                    image = "DomaineAndersonChardonnay.jpg"
+                    break;
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend Au Contraire 2013 Chardonnay ($20). The buttery and oaky flavours will go wonderfully with the savouriness of the cheese and without losing the sutble sweetness."
+                    image = "AuContraireChardonnay.jpg"
+                    break
+                default:
+                    break
+                }
                 break
             case Dessert.kFruits:
+                switch priceRange {
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend Ametzoi Rubentis Txakolina 2014 ($19) - because it is unoaked - or subtly oaked - and fruity."
+                    image = "AmetzoiRubentisTxakolina.jpg"
+                    break;
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend Domaine Tempier Bandol Rose ($40) - it is the perfect wine for fruits : slightly effervescent, relatively low in alcohol at 11%, crisp, light, and refreshing. Source: thestreet.com"
+                    image = "DomaineTempierBandolRose.jpg"
+                    break
+                default:
+                    break
+                }
                 break
             default:
                 break

@@ -424,10 +424,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JaB-Ri-ZR7">
-                                <rect key="frame" x="150" y="81" width="300" height="300"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JaB-Ri-ZR7">
+                                <rect key="frame" x="200" y="81" width="200" height="300"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="TiK-oo-UlS"/>
+                                    <constraint firstAttribute="width" constant="200" id="TiK-oo-UlS"/>
                                     <constraint firstAttribute="height" constant="300" id="qGW-cs-GKk"/>
                                 </constraints>
                             </imageView>
@@ -448,7 +448,7 @@
                                 </variation>
                             </textView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iqL-7p-J11">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
                                 <items>
                                     <navigationItem title="Wine Me Up" id="c1N-aq-m0G">
                                         <barButtonItem key="leftBarButtonItem" title="Home" id="psf-bb-BzC">
@@ -703,6 +703,7 @@
                                 <state key="normal" backgroundImage="veggies.png"/>
                                 <connections>
                                     <action selector="noMeatButtonClicked:" destination="uFP-Ju-2gW" eventType="touchUpInside" id="oxo-9z-1Me"/>
+                                    <segue destination="TEJ-I9-XWQ" kind="show" id="ecY-Mk-f6x"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Type Of Meat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3J8-48-fMA">
@@ -788,7 +789,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pne-y9-waZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ACJ-ld-Ghx" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1012" y="1110"/>
+            <point key="canvasLocation" x="1025" y="1004"/>
         </scene>
         <!--Type Of Sauce View Controller-->
         <scene sceneID="n4e-mB-EU3">
@@ -1058,9 +1059,9 @@
                                 <exclude reference="Jcf-vD-eLx"/>
                                 <exclude reference="kOJ-x7-L82"/>
                                 <exclude reference="rS7-x9-9zJ"/>
-                                <exclude reference="OQP-hq-cgu"/>
                                 <exclude reference="L8d-Ub-w4h"/>
                                 <exclude reference="V3R-hV-tKf"/>
+                                <exclude reference="OQP-hq-cgu"/>
                             </mask>
                         </variation>
                     </view>
