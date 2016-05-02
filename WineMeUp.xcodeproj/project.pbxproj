@@ -37,6 +37,10 @@
 		6328E18C1CD1E1590018CDC5 /* veggies.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1881CD1E1590018CDC5 /* veggies.png */; };
 		6328E18E1CD28E360018CDC5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328E18D1CD28E360018CDC5 /* HomeViewController.swift */; };
 		6328E1921CD2D2B40018CDC5 /* WineTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328E1911CD2D2B40018CDC5 /* WineTrackerViewController.swift */; };
+		6328E1971CD6EC3C0018CDC5 /* WhiteSauce.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1931CD6EC3C0018CDC5 /* WhiteSauce.png */; };
+		6328E1981CD6EC3C0018CDC5 /* RedSauce.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1941CD6EC3C0018CDC5 /* RedSauce.png */; };
+		6328E1991CD6EC3C0018CDC5 /* PestoSauce.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1951CD6EC3C0018CDC5 /* PestoSauce.png */; };
+		6328E19A1CD6EC3C0018CDC5 /* NoSauce.png in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1961CD6EC3C0018CDC5 /* NoSauce.png */; };
 		B803C4841CC57BB9004AF7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */; };
 		B803C4891CC57BB9004AF7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B803C4871CC57BB9004AF7B2 /* Main.storyboard */; };
 		B803C48B1CC57BB9004AF7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B803C48A1CC57BB9004AF7B2 /* Assets.xcassets */; };
@@ -94,6 +98,10 @@
 		6328E1881CD1E1590018CDC5 /* veggies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = veggies.png; path = Assets.xcassets/veggies.png; sourceTree = "<group>"; };
 		6328E18D1CD28E360018CDC5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6328E1911CD2D2B40018CDC5 /* WineTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineTrackerViewController.swift; sourceTree = "<group>"; };
+		6328E1931CD6EC3C0018CDC5 /* WhiteSauce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WhiteSauce.png; path = Assets.xcassets/WhiteSauce.png; sourceTree = "<group>"; };
+		6328E1941CD6EC3C0018CDC5 /* RedSauce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RedSauce.png; path = Assets.xcassets/RedSauce.png; sourceTree = "<group>"; };
+		6328E1951CD6EC3C0018CDC5 /* PestoSauce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PestoSauce.png; path = Assets.xcassets/PestoSauce.png; sourceTree = "<group>"; };
+		6328E1961CD6EC3C0018CDC5 /* NoSauce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoSauce.png; path = Assets.xcassets/NoSauce.png; sourceTree = "<group>"; };
 		B803C4801CC57BB9004AF7B2 /* WineMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B803C4881CC57BB9004AF7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -137,6 +145,10 @@
 		63BC834D1CD07FEE00EA21B8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6328E1931CD6EC3C0018CDC5 /* WhiteSauce.png */,
+				6328E1941CD6EC3C0018CDC5 /* RedSauce.png */,
+				6328E1951CD6EC3C0018CDC5 /* PestoSauce.png */,
+				6328E1961CD6EC3C0018CDC5 /* NoSauce.png */,
 				6328E1851CD1E1590018CDC5 /* home.png */,
 				6328E1861CD1E1590018CDC5 /* icecream.png */,
 				6328E1871CD1E1590018CDC5 /* pork.png */,
@@ -330,11 +342,14 @@
 				6328E14B1CD158650018CDC5 /* breakfast.png in Resources */,
 				6328E15F1CD16A800018CDC5 /* steak.png in Resources */,
 				6328E1891CD1E1590018CDC5 /* home.png in Resources */,
+				6328E1981CD6EC3C0018CDC5 /* RedSauce.png in Resources */,
 				6328E16A1CD172DD0018CDC5 /* eggs.png in Resources */,
+				6328E1971CD6EC3C0018CDC5 /* WhiteSauce.png in Resources */,
 				6328E14C1CD158650018CDC5 /* dinner.png in Resources */,
 				B803C48E1CC57BB9004AF7B2 /* LaunchScreen.storyboard in Resources */,
 				6328E15E1CD16A800018CDC5 /* sushi.png in Resources */,
 				6328E1621CD16A800018CDC5 /* fish.png in Resources */,
+				6328E19A1CD6EC3C0018CDC5 /* NoSauce.png in Resources */,
 				6328E16B1CD172DD0018CDC5 /* pancakes.png in Resources */,
 				B803C48B1CC57BB9004AF7B2 /* Assets.xcassets in Resources */,
 				6328E1601CD16A800018CDC5 /* chicken.png in Resources */,
@@ -346,6 +361,7 @@
 				6328E18C1CD1E1590018CDC5 /* veggies.png in Resources */,
 				6328E1691CD172DD0018CDC5 /* pastries.png in Resources */,
 				6328E18B1CD1E1590018CDC5 /* pork.png in Resources */,
+				6328E1991CD6EC3C0018CDC5 /* PestoSauce.png in Resources */,
 				6328E16C1CD172DD0018CDC5 /* rice.png in Resources */,
 				6328E1611CD16A800018CDC5 /* salad.png in Resources */,
 				6328E1521CD15CBB0018CDC5 /* dessertAndCake.png in Resources */,
