@@ -78,7 +78,6 @@ class ResultViewController: UIViewController {
         switch typeOfMeal {
             
         case Meal.kBrunch:
-            print("brunch")
             switch typeOfBrunch {
             case Brunch.kEggs:
                 switch priceRange {
@@ -143,8 +142,6 @@ class ResultViewController: UIViewController {
             break
             
         case Meal.kLunch:
-            print("lunch")
-            
             switch typeOfMainDish {
             case MainDish.kMeat:
                 
@@ -206,7 +203,42 @@ class ResultViewController: UIViewController {
                 
                 break
             case MainDish.kPasta:
-                break
+                switch typeOfSauce {
+                case Sauce.kWhiteSauce :
+                    switch priceRange {
+                    case PriceRange.kUnderTwentyFive:
+                        text = "We recommend the Vietti Barbera D’Asti Tre Vigne for $12.79. Ruby purple color with ripe red cherry aromas with hints of mineral and vanilla. A dry, medium bodied red wine with refreshing acidity (making it perfect to pair with food) and soft tannins, the Barbera d’Asti Tre Vigne is well balanced with good integration of oak, good complexity and a finish of more red cherries."
+                        image = "asti.jpeg"
+                    case PriceRange.kOverTwentyFive:
+                        text = "We recommend the Vino Noceto Linsteadt Barbera for $34.00. The wine is full-bodied with good acid and structure, soft, silky tannins, and a long finish. It displays bright, lingering aromas of blueberry and raspberry, with a touch of earth, spice and vanilla."
+                        image = "barbera.jpg"
+                    default:
+                        break
+                    }
+                case Sauce.kPestoSauce:
+                    switch priceRange {
+                    case PriceRange.kUnderTwentyFive:
+                        text = "We recommend the Chateau St. Jean Flume Blanc, for $13.00.Fumé Blanc is extremely inviting with vivid aromas of peach, nectarine, fresh fig and a soft floral citrus note. The nose leads to luscious palate with flavors of red sweet apple, lemon citrus and a touch of honey. There is a core of vibrant lemon-lime acidity on the finish which makes the wine bright and very food friendly."
+                        image = "flumeblanc2.jpg"
+                    case PriceRange.kOverTwentyFive:
+                        text = "We recommend the  Grgich Hills Estate Napa Valley Fumé Blanc, for $55.00. Relying on naturally-occurring yeasts, we fermented 80% of the grapes in 900-gallon French oak casks, called foudres, with the remainder in previously-used small French oak barrels. We then aged the wine six months on its lees (the spent yeast) in neutral barrels. The combination of the right clones and cool growing region produced juicy tropical fruit and lemongrass avors with a touch of minerality at the end of a long nish that are perfect with a wide range of food, including grilled sh, goat cheese salad and spicy Mexican or Asian cuisine. Enjoy! "
+                        image = "fumeBlanc.jpg"
+                    default:
+                        break
+                    }
+                default:
+                    switch priceRange {
+                    case PriceRange.kUnderTwentyFive:
+                        text = "We recommend the 2013 La Crema Sonoma Coast Pinot Noir for $19.99. This is an impressive wine at the price and production level, a great go-to for multiple occasions. It delivers earthy, candied strawberry around a light, bright core, remaining soft and smooth in texture and intensity, finishing with a tease of milk chocolate"
+                        image = "pinotnoir.jpeg"
+                    case PriceRange.kOverTwentyFive:
+                        text = "We recommend the Robert Sinskey Vineyards Pinot Noir for $40. The translucent, ruby red color triggers symptoms of synesthesia as you think you can almost smell or taste the wine just by looking at its vibrant color. Aromas and flavors of cranberry and raspberry are followed by a cinnamon spice and a touch of bramble. The wine is vibrant, almost nervy as the flavors explode across the palate for a nice, long, mouthwatering finish. "
+                        image = "pinotnoir2.jpg"
+                    default:
+                        break
+                    }
+                }
+                
             case MainDish.kRice:
                 switch priceRange {
                 case PriceRange.kUnderTwentyFive:
@@ -237,8 +269,6 @@ class ResultViewController: UIViewController {
             break
             
         case Meal.kDinner:
-            print("dinner")
-
             switch typeOfMainDish {
             case MainDish.kMeat:
                 
@@ -327,17 +357,17 @@ class ResultViewController: UIViewController {
             break
             
         case Meal.kDessert:
-            print("dessert")
-            
             switch typeOfDessert {
             case Dessert.kIceCream:
                 switch priceRange {
                 case PriceRange.kUnderTwentyFive:
-                    text = "We recommend The Montes Classic Series Cabernet Sauvignon ($15) - because the ice-cream should be sweeter than the wine. The delicate, sweet notes of the ice0cream will be swept away by the bitterness and dryness of the tannins."
+                    print("under25")
+                    text = "We recommend The Montes Classic Series Cabernet Sauvignon ($15) - because the ice cream should be sweeter than the wine. The delicate, sweet notes of the ice cream will be swept away by the bitterness and dryness of the tannins."
                     image = "MontesCabernet.jpg"
                     break;
                 case PriceRange.kOverTwentyFive:
-                    text = "We recommend Franciscan Estate Cabernet Sauvignon 2013 ($29) - because the ice-cream should be sweeter than the wine. The delicate, sweet notes of the ice0cream will be swept away by the bitterness and dryness of the tannins."
+                    print("over25")
+                    text = "We recommend Franciscan Estate Cabernet Sauvignon 2013 ($29) - because the ice cream should be sweeter than the wine. The delicate, sweet notes of the ice cream will be swept away by the bitterness and dryness of the tannins."
                     image = "FranciscanEstateCabernet.png"
                     break
                 default:
@@ -396,7 +426,6 @@ class ResultViewController: UIViewController {
             break
         }
         
-        print("made it here")
         wineDescriptionTextView.text = text;
         wineImageView.image = UIImage(named: image)
     }
