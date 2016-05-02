@@ -49,6 +49,8 @@
 		6328E1A71CD6FF010018CDC5 /* sblanc2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1A51CD6FF010018CDC5 /* sblanc2.jpeg */; };
 		6328E1AA1CD700F30018CDC5 /* cab1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1A81CD700F30018CDC5 /* cab1.jpeg */; };
 		6328E1AB1CD700F30018CDC5 /* cab2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1A91CD700F30018CDC5 /* cab2.jpg */; };
+		6328E1AE1CD7040F0018CDC5 /* syrah1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1AC1CD7040F0018CDC5 /* syrah1.jpg */; };
+		6328E1AF1CD7040F0018CDC5 /* syrah2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6328E1AD1CD7040F0018CDC5 /* syrah2.jpeg */; };
 		B803C4841CC57BB9004AF7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */; };
 		B803C4891CC57BB9004AF7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B803C4871CC57BB9004AF7B2 /* Main.storyboard */; };
 		B803C48B1CC57BB9004AF7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B803C48A1CC57BB9004AF7B2 /* Assets.xcassets */; };
@@ -118,6 +120,8 @@
 		6328E1A51CD6FF010018CDC5 /* sblanc2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sblanc2.jpeg; path = Assets.xcassets/sblanc2.jpeg; sourceTree = "<group>"; };
 		6328E1A81CD700F30018CDC5 /* cab1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cab1.jpeg; path = Assets.xcassets/cab1.jpeg; sourceTree = "<group>"; };
 		6328E1A91CD700F30018CDC5 /* cab2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cab2.jpg; path = Assets.xcassets/cab2.jpg; sourceTree = "<group>"; };
+		6328E1AC1CD7040F0018CDC5 /* syrah1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = syrah1.jpg; path = Assets.xcassets/syrah1.jpg; sourceTree = "<group>"; };
+		6328E1AD1CD7040F0018CDC5 /* syrah2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = syrah2.jpeg; path = Assets.xcassets/syrah2.jpeg; sourceTree = "<group>"; };
 		B803C4801CC57BB9004AF7B2 /* WineMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B803C4831CC57BB9004AF7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B803C4881CC57BB9004AF7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 		6328E19B1CD6F71B0018CDC5 /* WineImages */ = {
 			isa = PBXGroup;
 			children = (
+				6328E1AC1CD7040F0018CDC5 /* syrah1.jpg */,
+				6328E1AD1CD7040F0018CDC5 /* syrah2.jpeg */,
 				6328E1A81CD700F30018CDC5 /* cab1.jpeg */,
 				6328E1A91CD700F30018CDC5 /* cab2.jpg */,
 				6328E1A41CD6FF010018CDC5 /* sblanc1.jpeg */,
@@ -376,6 +382,7 @@
 				6328E1891CD1E1590018CDC5 /* home.png in Resources */,
 				6328E1981CD6EC3C0018CDC5 /* RedSauce.png in Resources */,
 				6328E16A1CD172DD0018CDC5 /* eggs.png in Resources */,
+				6328E1AE1CD7040F0018CDC5 /* syrah1.jpg in Resources */,
 				6328E1971CD6EC3C0018CDC5 /* WhiteSauce.png in Resources */,
 				6328E14C1CD158650018CDC5 /* dinner.png in Resources */,
 				B803C48E1CC57BB9004AF7B2 /* LaunchScreen.storyboard in Resources */,
@@ -390,6 +397,7 @@
 				6328E1561CD167140018CDC5 /* lunch.png in Resources */,
 				6328E16D1CD172DD0018CDC5 /* fruit.png in Resources */,
 				6328E16E1CD172DD0018CDC5 /* cheese.png in Resources */,
+				6328E1AF1CD7040F0018CDC5 /* syrah2.jpeg in Resources */,
 				6328E18A1CD1E1590018CDC5 /* icecream.png in Resources */,
 				6328E1541CD162530018CDC5 /* logo.png in Resources */,
 				6328E18C1CD1E1590018CDC5 /* veggies.png in Resources */,

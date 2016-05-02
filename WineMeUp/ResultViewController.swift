@@ -159,7 +159,17 @@ class ResultViewController: UIViewController {
             case MainDish.kPasta:
                 break
             case MainDish.kRice:
-                break
+                switch priceRange {
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend the Shingleback The Davey Estate Reserve Shiraz for $23.50. Deep garnet. Brooding blackberry, dark cherry and plum aromas are shot through with espresso chocolate notes. A compote of dark berries is encased within the chewy, robust tannin structure. A full-bodied wine with a long, lingering finish and the presence of character to accompany hearty, richly flavoured dishes. Source: shingleback.com"
+                    image = "syrah1.jpg";
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend the Clarendon Hills Moritz Syrah for $44.99. Tall, dark and handsome, the Clarendon Hills Moritz Syrah presents itself in a seductive and brooding bouquet with notes of earth, spice and blueberry that intertwine with roasted meats and cocoa. The palate is balanced and intense with flavors of chocolate and dark fruit. The super-tight extract offers a journey of textures juxtaposed within savory complexities, leading to a blueberry and cream finish. Source: wine.com"
+                    image = "syrah2.jpeg";
+                default:
+                    break
+                }
+                
             case MainDish.kSalad:
                 switch priceRange {
                 case PriceRange.kUnderTwentyFive:
@@ -241,7 +251,16 @@ class ResultViewController: UIViewController {
             case MainDish.kPasta:
                 break
             case MainDish.kRice:
-                break
+                switch priceRange {
+                case PriceRange.kUnderTwentyFive:
+                    text = "We recommend the Shingleback The Davey Estate Reserve Shiraz for $23.50. Deep garnet. Brooding blackberry, dark cherry and plum aromas are shot through with espresso chocolate notes. A compote of dark berries is encased within the chewy, robust tannin structure. A full-bodied wine with a long, lingering finish and the presence of character to accompany hearty, richly flavoured dishes. Source: shingleback.com"
+                    image = "syrah1.jpg";
+                case PriceRange.kOverTwentyFive:
+                    text = "We recommend the Clarendon Hills Moritz Syrah for $44.99. Tall, dark and handsome, the Clarendon Hills Moritz Syrah presents itself in a seductive and brooding bouquet with notes of earth, spice and blueberry that intertwine with roasted meats and cocoa. The palate is balanced and intense with flavors of chocolate and dark fruit. The super-tight extract offers a journey of textures juxtaposed within savory complexities, leading to a blueberry and cream finish. Source: wine.com"
+                    image = "syrah2.jpeg";
+                default:
+                    break
+                }
             case MainDish.kSalad:
                 switch priceRange {
                 case PriceRange.kUnderTwentyFive:
