@@ -345,7 +345,7 @@ class ResultViewController: UIViewController {
                 case PriceRange.kUnderTwentyFive:
                     text = "We recommend the 2014 Glatzer Gruner Veltliner for $14.99. 'The savory, green tones with celeriac and white pepper notes of a classic gruner are a perfect match for a salad. It enhances all farm-fresh flavors of the a great salad and brings brightness to the finish. Gruner also generally has enough weight on the palate to go with salad that have proteins. There's enough ripeness to balance out a grilled chicken or egg preparation, as well as acidity if you like salmon or blue cheese with your salad. Other great wines that have lovely, fresh green tones that work well with salads: Sancerre, Chablis, Arneis, and even a Blanc de Blancs Champagne.'—June Rodil (Qui), "
                     image = "gruner.jpeg";
-               case PriceRange.kOverTwentyFive:
+                case PriceRange.kOverTwentyFive:
                     text = "We recommend the 2014 Habit Gruner Veltliner for $27.99. 'The savory, green tones with celeriac and white pepper notes of a classic gruner are a perfect match for a salad. It enhances all farm-fresh flavors of the a great salad and brings brightness to the finish. Gruner also generally has enough weight on the palate to go with salad that have proteins. There's enough ripeness to balance out a grilled chicken or egg preparation, as well as acidity if you like salmon or blue cheese with your salad. Other great wines that have lovely, fresh green tones that work well with salads: Sancerre, Chablis, Arneis, and even a Blanc de Blancs Champagne.'—June Rodil (Qui), "
                     image = "gruner2.jpeg";
                 default:
@@ -361,20 +361,14 @@ class ResultViewController: UIViewController {
             case Dessert.kIceCream:
                 switch priceRange {
                 case PriceRange.kUnderTwentyFive:
-                    print("under25")
                     text = "We recommend The Montes Classic Series Cabernet Sauvignon ($15) - because the ice cream should be sweeter than the wine. The delicate, sweet notes of the ice cream will be swept away by the bitterness and dryness of the tannins."
                     image = "MontesCabernet.jpg"
-                    break;
                 case PriceRange.kOverTwentyFive:
-                    print("over25")
                     text = "We recommend Franciscan Estate Cabernet Sauvignon 2013 ($29) - because the ice cream should be sweeter than the wine. The delicate, sweet notes of the ice cream will be swept away by the bitterness and dryness of the tannins."
                     image = "FranciscanEstateCabernet.png"
-                    break
                 default:
                     break
                 }
-            
-
                 break
             case Dessert.kCake:
                 switch priceRange {
