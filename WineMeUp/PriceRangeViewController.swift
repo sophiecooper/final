@@ -28,12 +28,12 @@ class PriceRangeViewController: UIViewController {
     }
     
     @IBAction func underTwentyFiveButtonClicked(sender: AnyObject) {
-        //prefs.setValue(1, forKey: "priceRange")
+        prefs.setValue(1, forKey: "priceRange")
         print("cheaper")
     }
     
     @IBAction func overTwentyFiveButtonClicked(sender: AnyObject) {
-        //prefs.setValue(2, forKey: "priceRange")
+        prefs.setValue(2, forKey: "priceRange")
         print("make it rain")
     }
 }

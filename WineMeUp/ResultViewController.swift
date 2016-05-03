@@ -192,7 +192,7 @@ class ResultViewController: UIViewController {
                             image = "gruner.jpeg";
                         case PriceRange.kOverTwentyFive:
                             text = "We recommend the 2014 Habit Gruner Veltliner for $27.99. 'The savory, green tones with celeriac and white pepper notes of a classic gruner are a perfect match for a salad. It enhances all farm-fresh flavors of the a great salad and brings brightness to the finish. Gruner also generally has enough weight on the palate to go with salad that have proteins. There's enough ripeness to balance out a grilled chicken or egg preparation, as well as acidity if you like salmon or blue cheese with your salad. Other great wines that have lovely, fresh green tones that work well with salads: Sancerre, Chablis, Arneis, and even a Blanc de Blancs Champagne.'—June Rodil (Qui), "
-                            image = "gruner2.jpeg";
+                            image = "gruner2.jpg";
                         default:
                             break
                     }
@@ -219,7 +219,7 @@ class ResultViewController: UIViewController {
                     switch priceRange {
                     case PriceRange.kUnderTwentyFive:
                         text = "We recommend the Chateau St. Jean Flume Blanc, for $13.00.Fumé Blanc is extremely inviting with vivid aromas of peach, nectarine, fresh fig and a soft floral citrus note. The nose leads to luscious palate with flavors of red sweet apple, lemon citrus and a touch of honey. There is a core of vibrant lemon-lime acidity on the finish which makes the wine bright and very food friendly."
-                        image = "flumeblanc2.jpg"
+                        image = "fumeblanc2.jpg"
                     case PriceRange.kOverTwentyFive:
                         text = "We recommend the  Grgich Hills Estate Napa Valley Fumé Blanc, for $55.00. Relying on naturally-occurring yeasts, we fermented 80% of the grapes in 900-gallon French oak casks, called foudres, with the remainder in previously-used small French oak barrels. We then aged the wine six months on its lees (the spent yeast) in neutral barrels. The combination of the right clones and cool growing region produced juicy tropical fruit and lemongrass avors with a touch of minerality at the end of a long nish that are perfect with a wide range of food, including grilled sh, goat cheese salad and spicy Mexican or Asian cuisine. Enjoy! "
                         image = "fumeBlanc.jpg"
@@ -258,7 +258,7 @@ class ResultViewController: UIViewController {
                     image = "gruner.jpeg";
                 case PriceRange.kOverTwentyFive:
                     text = "We recommend the 2014 Habit Gruner Veltliner for $27.99. 'The savory, green tones with celeriac and white pepper notes of a classic gruner are a perfect match for a salad. It enhances all farm-fresh flavors of the a great salad and brings brightness to the finish. Gruner also generally has enough weight on the palate to go with salad that have proteins. There's enough ripeness to balance out a grilled chicken or egg preparation, as well as acidity if you like salmon or blue cheese with your salad. Other great wines that have lovely, fresh green tones that work well with salads: Sancerre, Chablis, Arneis, and even a Blanc de Blancs Champagne.'—June Rodil (Qui), "
-                    image = "gruner2.jpeg";
+                    image = "gruner2.jpg";
                 default:
                     break
                 }
@@ -317,7 +317,7 @@ class ResultViewController: UIViewController {
                         image = "gruner.jpeg";
                     case PriceRange.kOverTwentyFive:
                         text = "We recommend the 2014 Habit Gruner Veltliner for $27.99. 'The savory, green tones with celeriac and white pepper notes of a classic gruner are a perfect match for a salad. It enhances all farm-fresh flavors of the a great salad and brings brightness to the finish. Gruner also generally has enough weight on the palate to go with salad that have proteins. There's enough ripeness to balance out a grilled chicken or egg preparation, as well as acidity if you like salmon or blue cheese with your salad. Other great wines that have lovely, fresh green tones that work well with salads: Sancerre, Chablis, Arneis, and even a Blanc de Blancs Champagne.'—June Rodil (Qui), "
-                        image = "gruner2.jpeg";
+                        image = "gruner2.jpg";
                     default:
                         break
                     }
@@ -347,7 +347,7 @@ class ResultViewController: UIViewController {
                     image = "gruner.jpeg";
                 case PriceRange.kOverTwentyFive:
                     text = "We recommend the 2014 Habit Gruner Veltliner for $27.99. 'The savory, green tones with celeriac and white pepper notes of a classic gruner are a perfect match for a salad. It enhances all farm-fresh flavors of the a great salad and brings brightness to the finish. Gruner also generally has enough weight on the palate to go with salad that have proteins. There's enough ripeness to balance out a grilled chicken or egg preparation, as well as acidity if you like salmon or blue cheese with your salad. Other great wines that have lovely, fresh green tones that work well with salads: Sancerre, Chablis, Arneis, and even a Blanc de Blancs Champagne.'—June Rodil (Qui), "
-                    image = "gruner2.jpeg";
+                    image = "gruner2.jpg";
                 default:
                     break
                 }
